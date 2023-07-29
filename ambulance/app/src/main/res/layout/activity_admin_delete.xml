@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_delete">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="311dp"
+        android:layout_height="135dp"
+        android:fontFamily="@font/greycliffcfbold"
+        android:text="Remove Account"
+        android:textColor="@color/red"
+        android:textSize="54dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="510dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Company Name"
+            android:fontFamily="@font/greycliffcfbold"
+            android:textSize="34dp"
+            android:textColor="@color/red"
+
+            />
+
+        <EditText
+            android:id="@+id/d_name"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="abc company"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Email"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/greycliffcfbold"
+            android:textSize="34dp"
+            android:textColor="@color/red"
+            />
+
+        <EditText
+            android:id="@+id/d_email"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="abc@gmail.com" />
+
+        <Button
+            android:id="@+id/deleteaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:background="@drawable/cornerbutton"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:fontFamily="@font/greycliffcfbold"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

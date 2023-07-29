@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ambulance</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string-array name="filtered_value">
+        <item>Name</item>
+        <item>location</item>
+    </string-array>
+</resources>

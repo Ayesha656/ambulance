@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".optionselection">
+
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="337dp"
+        android:layout_height="122dp"
+        android:background="@drawable/cornerbutton"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/greycliffcfbold"
+        android:text="Admin"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="337dp"
+        android:layout_height="122dp"
+        android:text="User"
+        android:background="@drawable/cornerbutton"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/white"
+        android:fontFamily="@font/greycliffcfbold"
+        android:textSize="34dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+</androidx.constraintlayout.widget.ConstraintLayout>
